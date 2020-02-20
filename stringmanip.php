@@ -6,13 +6,16 @@
     <title>PHP Primer - String Manipulation</title>
 </head>
 <body>
-    <h1>String Manipulation</h1>
-    <h2>String Concatenation</h2>
+    
     <?php
-    $phrase1 = "why didnt you do your homework";
-    $phrase2 = "my dog ate it";
+        $title = "String Manipulation";
+        include 'includes/navigation.php';
 
-    echo "<p>".$phrase1."</p><p>".$phrase2."</p>";
+        echo "<hr/><h1>String Manipulation</h1><h2>String Concatenation</h2>";
+        $phrase1 = "why didnt you do your homework";
+        $phrase2 = "my dog ate it";
+
+        echo "<p>".$phrase1."</p><p>".$phrase2."</p>";
     ?>
 
     <h2>functions on strings</h2>

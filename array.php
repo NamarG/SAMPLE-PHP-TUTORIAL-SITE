@@ -7,8 +7,11 @@
 </head>
 <body>
     
-    <h1>Arrays</h1>
     <?php
+    $title = "Arrays";
+    include 'includes/navigation.php';
+
+    echo "<h1>Arrays</h1>";
     $numbers = array(1,2,3,4,5,6,7,8,9,10);
     $count=0;
     while($count<10){

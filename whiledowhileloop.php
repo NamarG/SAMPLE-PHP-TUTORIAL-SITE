@@ -6,14 +6,15 @@
     <title>PHP Primer - do while/while loops</title>
 </head>
 <body>
-    
-    <H1>While Loop</H1>
     <?PHP
-    $grade = 0;
-    while($grade<10){
-        echo "<p>grade is less than 10</p>";
-        $grade++;
-    }
+        $title = "While/Do While Loops";
+        include 'includes/navigation.php';
+        echo "<hr/><H1>While Loop</H1>";
+        $grade = 0;
+        while($grade<10){
+            echo "<p>grade is less than 10</p>";
+            $grade++;
+        }
     ?>
 
     <H1>Do While Loop</H1>

@@ -8,7 +8,9 @@
 <body>
     
 <?php         
-    echo "<h2>if statement</h2>";
+    $title = "If Statements";
+    include 'includes/navigation.php';
+    echo "<hr/><h2>if statement</h2>";
     $grade = 100;
 
     if($grade >= 100){

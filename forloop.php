@@ -7,8 +7,11 @@
 </head>
 
 <body>
-    <h1>For Loop Demo Page</h1>    
+      
     <?php 
+        $title = "For Loops";
+        include 'includes/navigation.php';
+        print "<h1>For Loop Demo Page</h1>";
         //for loop
         for($count=0; $count<=10; $count++){
             echo "<p>hello world count = ".$count."</p>";

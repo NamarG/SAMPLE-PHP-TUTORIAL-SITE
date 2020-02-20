@@ -6,8 +6,11 @@
     <title>PHP Primer - Switch Statement</title>
 </head>
 <body>
-<h1>Switch Staements</h1>
 <?php
+    $title = "Switch Statements";
+    include 'includes/navigation.php';
+    echo "<hr/><h1>Switch Statements</h1>";
+
     $grade="d";
 
  switch($grade){

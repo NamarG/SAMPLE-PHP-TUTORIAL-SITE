@@ -12,13 +12,14 @@
 
 <?php 
     $title = "Index";
-    include 'includes/navigation.php';
+    // include 'includes/navigation.php';
 
     $name = 'Namar'; 
     echo $name;
-    echo "<h1>".$name." Is A Real G </h1>";
+    echo '<h1>".$name." Is A Real G </h1>';
+    echo "<h1> $name Is A Real G </h1>";
     
-    include 'includes/footer.php';
+    // include 'includes/footer.php';
 ?>
     
 

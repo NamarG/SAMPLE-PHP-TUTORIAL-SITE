@@ -1,4 +1,4 @@
-    <div style="margin-left: 10%;margin-right: 10%;">
+    <div style="margin-left: 0%;margin-right: 0%;">
     <ul class = "nav nav-tabs">
     <li class="nav-item"><a class="nav-link" href="array.php">simple array and printouts</a></li>
     <li><a class="nav-link" href="forloop.php">simple for loop</a></li>
